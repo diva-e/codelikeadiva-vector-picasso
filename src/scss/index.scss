@@ -1,0 +1,184 @@
+@import "my-code/style.scss";
+
+// PROJECT STYLES (please keep them)
+html {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  font-family: 'Fira Sans', Arial, sans-serif;
+}
+
+#artwork-border {
+  position: relative;
+  display: inline-block;
+  padding: 50px;
+  border: 40px solid black;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 35px grey;
+}
+
+#artwork-wrapper {
+  border: 1px solid rgba(grey, 0.1);
+}
+
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+#credits {
+  display: block;
+
+  .block {
+    display: inline-block;
+    background-color: black;
+    margin: 50px;
+    padding: 30px;
+    width: auto;
+    box-shadow: 0 0 10px grey;
+  }
+
+  .title,
+  .artist {
+    display: block;
+    color: white;
+  }
+
+  .title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+#menu {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background-color: rgba(lightgrey, 0.7);
+
+  a {
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+    &:hover {
+      background-color: grey;
+    }
+  }
+
+  .key {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 6px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+
+  &.closed {
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .box {
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    min-height: 30%;
+
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 60px 30px;
+  }
+
+  .title,
+  .author,
+  .instruction {
+    display: block;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .author {
+    font-size: 30px;
+  }
+
+  .instruction {
+    margin-top: 50px;
+  }
+
+  button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background-color: lightgrey;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+
+    &::after {
+      content: 'x';
+      display: block;
+      margin-top: -3px;
+    }
+
+    &:hover {
+      background-color: grey;
+
+      &::after {
+        color: white;
+      }
+    }
+  }
+}
+

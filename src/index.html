@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="shortcut icon" href="https://www.diva-e.com/fileadmin/templates/fluid/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <h1><%= htmlWebpackPlugin.options.pageTitle %></h1>
+    <h2><%= htmlWebpackPlugin.options.challengeTitle %></h2>
+
+    <div id="artwork-border">
+      <div id="artwork-wrapper" style="width: 842px; height: 596px;">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="842" height="596">
+          <!-- replace content of SVG with your art [START] -->
+          <path d="M 100 100 L 300 100 L 200 300 z" fill="purple" stroke="none" />
+          <path d="M 600 300 L 500 400 L 700 400 z" fill="lime" stroke="none" />
+          <!-- replace content of SVG with your art [END] -->
+        </svg>
+      </div>
+    </div>
+
+    <div id="credits">
+      <div class="block">
+        <label class="title">title of your artwork</label>
+        <label class="artist">your name</label>
+      </div>
+    </div>
+
+  </body>
+</html>
