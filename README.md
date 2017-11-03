@@ -1,6 +1,6 @@
 ## Wichtige Infos vorab
 + Registriere dich für unsere Dev-Challenge auf deiner Wunschplattform (Xing, eventim oder meetup - näheres dazu unter [http://www.codelikeadiva.de/anmeldung.html](http://www.codelikeadiva.com/anmeldung.html)).
-+ Erstelle einen Feature-Branch ```(feature/dc-dein-username)``` von diesem Repository und arbeite in diesem.
++ Erstelle einen Fork von diesem Repository und dort arbeite dort im ```develop```-Branch.
 + Damit wir dein Kunstwerk zuordnen können ist es wichtig, dass du die Datei ```src/config.js``` anpasst. Trage dich als Author ein, vergebe einen Titel für dein Kunstwerk und schreibe eine kurze Erklärung wie dieses generiert werden kann.
 + Die Projektbasis ist so aufgebaut, dass du gleich anfangen kannst mit entwickeln.  
 Starte einfach in den Dateien ```src/js/my-code/index.js``` / ```src/scss/my-code/style.scss``` und tobe dich kreativ aus.
@@ -12,7 +12,7 @@ Weitere Infos hierzu findest du auch unter [http://www.codelikeadiva.de/aftercod
 ## Regeln
 + Ziel ist es eine vektor-basierte SVG-Grafik zu generieren und diese in der ```index.html```  innerhalb des ```<div id="artwork-wrapper"/>``` darzustellen.
 + Als Ergebnis muss zusätzlich die favorisierte Darstellung deines Kunstwerkes im Ordner ```./my-artwork``` gesichert sein. Dazu kannst du die eingebaute Exportfunktion nutzen.
-+ Dein Code muss sich in einem Feature-Branch befinden.
++ Dein Code muss sich in einem Fork befinden.
 + Der zentrale Algorithmus zur Generierung deines Kunstwerkes muss selbst geschrieben sein.
 + Libraries zur Unterstützung können verwendet werden.
 
@@ -33,8 +33,8 @@ Folgende Kriterien (mit Faktor) fließen in die Bewertung mit ein:
 
 ## Einreichen
 + Das Kunstwerk, welches dir am besten gefällt muss von dir exportiert und gesichert werden.  
-Speicher es dann in den Ordner ```./my-artwork```.
-+ **Wenn du die Dev-Challenge einreichen willst, update dein Repo mit dem letzten Stand und sende uns eine E-Mail mit dem Repo-Link an [codelikea@diva-e.com](mailto:codelikea@diva-e.com)
+Lege es dann in den Ordner ```./my-artwork```.
++ **Wenn du die Dev-Challenge einreichen willst, update deinen Fork mit dem letzten Stand und sende uns eine E-Mail mit dem Link zu deinem Fork an [codelikea@diva-e.com](mailto:codelikea@diva-e.com).
 Bitte achte hierbei darauf, die selbe E-Mailadresse wie bei deiner Anmeldung zu verwenden bzw. diese zu nennen.**
 
 ## Hast du Fragen?
