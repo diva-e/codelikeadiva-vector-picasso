@@ -1,5 +1,5 @@
 ## Wichtige Infos vorab
-+ Registriere dich für unsere Dev-Challenge auf deiner Wunschplattform (Xing, eventim oder meetup - näheres dazu unter [http://www.codelikeadiva.com/anmeldung.html](http://www.codelikeadiva.com/anmeldung.html)).
++ Registriere dich für unsere Dev-Challenge auf deiner Wunschplattform (Xing, eventim oder meetup - näheres dazu unter [http://www.codelikeadiva.de/anmeldung.html](http://www.codelikeadiva.com/anmeldung.html)).
 + Erstelle einen Feature-Branch ```(feature/dc-dein-username)``` von diesem Repository und arbeite in diesem.
 + Damit wir dein Kunstwerk zuordnen können ist es wichtig, dass du die Datei ```src/config.js``` anpasst. Trage dich als Author ein, vergebe einen Titel für dein Kunstwerk und schreibe eine kurze Erklärung wie dieses generiert werden kann.
 + Die Projektbasis ist so aufgebaut, dass du gleich anfangen kannst mit entwickeln.  
@@ -7,7 +7,7 @@ Starte einfach in den Dateien ```src/js/my-code/index.js``` / ```src/scss/my-cod
 + Konzentriere dich bei der Entwicklung auf dein Kunstwerkt. Die Optimierung für Chrome ist völlig ausreichend.
 + Einsendeschluss ist der **01. Dezember 2017**
 + Preisvergabe bei **Snacks** und **gekühlten Getränken** ist am **Donnerstag, 07. Dezember 2017**. Wir freuen uns auf deinen Besuch im Münchner Büro von diva-e.  
-Weitere Infos hierzu findest du auch unter [http://www.codelikeadiva.com/aftercodeparty.html](http://www.codelikeadiva.com/aftercodeparty.html)
+Weitere Infos hierzu findest du auch unter [http://www.codelikeadiva.de/aftercodeparty.html](http://www.codelikeadiva.de/aftercodeparty.html)
 
 ## Regeln
 + Ziel ist es eine vektor-basierte SVG-Grafik zu generieren und diese in der ```index.html```  innerhalb des ```<div id="artwork-wrapper"/>``` darzustellen.
