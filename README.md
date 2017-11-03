@@ -1,6 +1,6 @@
 ## Wichtige Infos vorab
 + Registriere dich für unsere Dev-Challenge auf deiner Wunschplattform (Xing, eventim oder meetup - näheres dazu unter [http://www.codelikeadiva.de/anmeldung.html](http://www.codelikeadiva.com/anmeldung.html)).
-+ Erstelle einen Fork von diesem Repository und dort arbeite dort im ```develop```-Branch.
++ Erstelle einen Fork von diesem Repository und arbeite dort im ```develop```-Branch.
 + Damit wir dein Kunstwerk zuordnen können ist es wichtig, dass du die Datei ```src/config.js``` anpasst. Trage dich als Author ein, vergebe einen Titel für dein Kunstwerk und schreibe eine kurze Erklärung wie dieses generiert werden kann.
 + Die Projektbasis ist so aufgebaut, dass du gleich anfangen kannst mit entwickeln.  
 Starte einfach in den Dateien ```src/js/my-code/index.js``` / ```src/scss/my-code/style.scss``` und tobe dich kreativ aus.
