@@ -95,6 +95,7 @@ class Artwork {
       el.setAttributeNS(null, 'fill', 'none');
       el.setAttributeNS(null, 'stroke-width', lineWidth);
       el.setAttributeNS(null, 'stroke-opacity', 1 - j/iter);
+      el.setAttributeNS(null, 'fill-opacity', 0);
       container.appendChild(el);
     }
 
