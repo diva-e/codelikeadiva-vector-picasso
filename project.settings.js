@@ -1,7 +1,7 @@
 const projectSettings = {
-  title: 'code like a diva',
-  vol: '1',
-  subtitle: 'Vector Picasso'
+  title: 'Growing Randomness',
+  vol: '0.0.0.0.1',
+  subtitle: 'Visualising two dimensional randomness scaling'
 };
 
 module.exports = projectSettings;

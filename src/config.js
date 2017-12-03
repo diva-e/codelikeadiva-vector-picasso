@@ -1,7 +1,7 @@
 const config = {
-  author: "Füge hier dein Namen ein",
-  title: "Gebe deinem Kunstwerk einen Titel",
-  instructions: "Damit wir besser verstehen wie dein Kunstwerk generiert wird, schreibe bitte eine kurze Erklärung dazu."
+  author: "Bruno Fenzl",
+  title: "Growing Randomness",
+  instructions: "Each circle is interpolated with N copies of itself. The position of the control points for the segments of each of these copies are incrementaly influenced by the position of the previous segment and from the previous samples. The Interpolation is calculated with easing functions."
 };
 
 export default config;
