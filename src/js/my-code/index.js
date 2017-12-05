@@ -25,7 +25,7 @@ class Artwork {
 
   init() {
     for (let i = 0; i < numSamples; i++) {
-      this.drawInterpolation();
+      this.draw();
     }
   }
 
@@ -72,14 +72,14 @@ class Artwork {
     return arr;
   }
 
-  drawInterpolation() {
+  draw() {
     c = this.baseCirclePoints(r);
         
     for(let j = 0; j < iter; j++) { // create circles
       const el = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       const curve = this.multiPointQuadratic(c);
       
-      for(let i = 0; i < c.length; i++) { // set values for the points of the next interpolation 
+      for(let i = 0; i < c.length; i++) { // set values for the points of the next path 
         let p = c[i];
 
         p.vx += easeInCubic(i, 0, p.mx, c.length);
